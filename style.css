@@ -1,0 +1,186 @@
+/* Reset defaults Index*/
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* End reset defaults */
+
+/* BODY INDEX */
+body {
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.main-header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 10rem;
+    display: flex;
+}
+.menu {
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px
+}
+@media only screen and (max-width: 481px) {
+    .media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+header nav ul li {
+    display: inline-flex; /* Modifica la forma de ver el menu en este caso */
+    margin-right: 2.5rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(5, 5, 5)
+}
+/* END HEADER */
+
+/* SECCION INDEX UNO */
+.trendy-section-screen {
+    display: flex;
+}
+.carousel-img {
+    width: 100%;
+}
+.section-title {
+    text-align: center;
+    margin: 2% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+}
+.span-eme {
+    color: rgb(226, 43, 217);
+}
+/* FIN SECCION INDEX UNO */
+
+/* SECCION INDEX DOS*/
+.section-links {
+    text-align: center;
+    margin-bottom: 5.5%;
+}
+.img {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+}
+/* aca van las animaciones */
+.animation {
+    overflow: hidden;
+    border-radius: 10%;
+}
+.animation:hover .image {
+    transform: scale(1.1);
+}
+.image {
+    width: 400px;
+    height: 600px;
+    border-radius: 10%;
+    transition: all 2s ease;
+}
+@media only screen and (max-width: 481px) {
+    .image {
+        width: 280px;
+        height: 400px;
+    } 
+    .img {
+        font-size: 1.2rem;
+    }
+}
+/* FIN SECCION INDEX DOS */
+
+/* SECCION COMO COMPRAR */
+.banner-como-comprar {
+    display: flex;
+}
+.comprar-1 {
+    width: 100%;
+}
+.menu-comprar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2.5%;
+}
+/* FIN SECCION COMO COMPRAR */
+
+/* SECCION TRENDY */
+.grid-container {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+    gap: 0px;
+}
+.grid-item {
+    display: grid;
+    gap: 0px;
+}
+.img-trendy {
+    width: 100%;
+}
+/* END SECTION TRENDY */
+
+
+/* FOOTER */
+/* Ubicacion logo en Header */
+.logo-footer {
+    width: 10rem;
+    display: flex;
+}
+.footer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.titulo-footer-uno, .titulo-footer {
+    font-size: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.contacto-whatsapp {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.contact-text {
+    text-align: center;
+    display: flex;
+}
+.style {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 481px) {
+    .logo-footer, .titulo-footer-uno, .mapa {
+        display: none;
+    }
+    .style {
+       align-items: center;
+    }
+    .redes-sociales, .footer-text {
+        align-items: center;
+        }
+}
+/* FIN FOOTER */
+
