@@ -82,6 +82,7 @@ header nav ul li a {
 .animation {
     overflow: hidden;
     border-radius: 10%;
+     
 }
 .animation:hover .image {
     transform: scale(1.1);
