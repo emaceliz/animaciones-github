@@ -20,10 +20,11 @@ header nav ul li {
 }
 header nav ul li a {
     text-decoration: none;
-    color: rgb(5, 5, 5)
+    color: rgb(5, 5, 5);
+    font-size: 2rem;
 }
 .logotipo {
-    width: 5rem;
+    width: 7rem;
     display: flex;
 }
 #navbarNav {
